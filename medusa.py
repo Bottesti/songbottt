@@ -16,7 +16,7 @@ Medusa = Client(
 )
 
 
-PMTEXT = ('👋 Salam\n⚡ Mən 🎧 _ 𝐒 𝐎 𝐍 𝐆 _ 𝐁 𝐎 𝐓 Musiqi Yükləmə Botuyam\n🎧 Mənim Vasdəm İlə İsdənilən Musiqini Yükləmək Mümkündür\n📚 Əmrlərlə Tanış Olmaq Üçün ƏMRLƏR Butonuna Toxun')
+PMTEXT = ('👋 Salam\n⚡ Mən 🎧 _ Karabakh _ Musiqi Yükləmə Botuyam\n🎧 Mənim Vasdəm İlə İsdənilən Musiqini Yükləmək Mümkündür\n📚 Əmrlərlə Tanış Olmaq Üçün ƏMRLƏR Butonuna Toxun')
 PMKEYBOARD = InlineKeyboardMarkup(
     [
         [
@@ -26,14 +26,14 @@ PMKEYBOARD = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                '➕《 MƏNİ QRUPA DƏVƏT ET 》 ➕', url='http://t.me/Songdowbot?startgroup=true')  # Replace the `MedusaMousikibot` with your bot username
+                '➕《 MƏNİ QRUPA DƏVƏT ET 》 ➕', url='http://t.me/KarabakhSongBot?startgroup=true')  # Replace the `MedusaMousikibot` with your bot username
         ]
     ]
 )
 HELPTEXT = ('📚 ƏMRLƏR MENUSU\n🔹️ Aşağdakı Əmrləri İzləyin\n⚡ **ƏMRLƏR*/n• /song - Musiqi Adı Yada YouTube  Linki\n• /lyrics - İsdənilən Musiqinin Sözlərin Yükləyər\n• /info - YouTube dən Musiqi Məlumatı Alın')
 
 ABOUTTEXT = (
-    "**Name** : MedusaMusic🎵\n**Username** : MedusaMousikibot\n**Description**"
+    "**Name** : KarabakhMusic🎵\n**Username** : KarabakhMusic\n**Description**"
     " : <a href='https://en.wikipedia.org/wiki/Medusa'>**Medusa**</a> is a Greek"
     " mythology.\n__Generally described as winged human females with living"
     " venomous snakes in place of hair. Those who gazed into her eyes would"
@@ -67,7 +67,7 @@ async def start_cmd(_, msg: Message):
                         InlineKeyboardButton(
                             text='Start me in PM :)',
                             # Replace the `MedusaMousikibot` with your bot username
-                            url=f't.me/MedusaMousikibot?start=help'
+                            url=f't.me/KarabakhSongBot bot?start=help'
                         )
                     ]
                 ]
